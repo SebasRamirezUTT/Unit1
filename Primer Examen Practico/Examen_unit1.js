@@ -1,5 +1,4 @@
 //Ramirez Ornelas Eric Sebastian 10A
-
 //Url donde se encuentra el JSON
 var url = "http://jsonplaceholder.typicode.com/todos";
 
@@ -101,6 +100,7 @@ function mostrarMenu() {
     console.log("0. Salir");
 }
 
+//Seleccion de opciones
 function ejecutarOpcion(opcion) {
     switch (opcion) {
         case "1":
